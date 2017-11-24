@@ -1,0 +1,26 @@
+{
+  "name": "AngularComponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.js --port 9906",
+    "build": "webpack --config webpack.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",    
+    "bootstrap-loader": "2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",     
+    "ng-annotate-loader": "0.6.1",     
+    "webpack": "3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
